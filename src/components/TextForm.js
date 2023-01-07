@@ -52,16 +52,16 @@ export default function TextForm(props) {
                 <button disabled={text.length === 0} className="btn btn-primary mx-1 my-1" onClick={handleCopy}>Copy to Clipboard</button>
                 <button disabled={text.length === 0} className="btn btn-primary mx-1 my-1" onClick={handleExtraSpaces}>Remove Extra Spaces</button>
             </div>
-            <div class="accordion mx-3 my-3" id="accordionExample" style={{width:"28%",float:'right'}} >
-                <div class="accordion-item" >
-                    <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style={{color: props.mode === 'dark' ? 'white' : '#042743',backgroundColor: props.mode === 'dark' ? '#13466e' : 'white'}}>
+            <div className="accordion mx-3 my-3" id="accordionExample" style={{width:"28%",float:'right'}} >
+                <div className="accordion-item" >
+                    <h2 className="accordion-header" id="headingOne">
+                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style={{color: props.mode === 'dark' ? 'white' : '#042743',backgroundColor: props.mode === 'dark' ? '#13466e' : 'white'}}>
                             <strong>Details</strong>
                         </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                        <div class="accordion-body"style={myStyle}>
-                            <table class="table">
+                    <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div className="accordion-body"style={myStyle}>
+                            <table className="table">
                                 <tbody>
                                     <tr style={myStyle}>
                                         <th scope="row">1</th>
