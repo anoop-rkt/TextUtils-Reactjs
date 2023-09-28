@@ -44,7 +44,7 @@ function App() {
         <div className="container my-4">
           <Routes>
             <Route exact path='/about' element={<About mode={mode} />} />
-            <Route exact path='/' element={<TextForm heading="TextUtils - Word counter, Character counter" mode={mode} showAlert={showAlert} />} />
+            <Route exact path='/' element={<TextForm heading="TextUtils - Enter your text to analyze" mode={mode} showAlert={showAlert} />} />
           </Routes>
         </div>
       </BrowserRouter>

@@ -6,6 +6,9 @@ export default function About(props) {
     return (
         <div className='container' style={{ color: props.mode === 'dark' ? 'white' : '#042743' }}>
             <h3 className='my-3'>About us</h3>
+            <p><b>TextUtils</b> is a ReactJs website built primarily to do various operations on regular typed text.  TextUtils offers much more than simple text drafting and formatting. TextUtils can convert your text to any case in just one simple click of a button. It can extract links and numbers safely from a labyrinth of random text or sophisticated documentation. It has an improved property of base64 encoding, reversal of your inputted text.You can even remove whitespaces from your scripted documents, and wear up your earphones to listen to it, instead of straining your eyes! It does a detailed analyzing of your text, and provides an output of words, and characters, along with reading time as well. 
+            </p>
+            <h6>The most eminent features of the website are as follows :</h6>
             <div className="accordion" id="accordionExample">
                 <div className="accordion-item">
                     <h2 className="accordion-header" id="headingOne">
